@@ -31,3 +31,13 @@ body {
     margin-bottom: 18px;
     opacity: .9;
 }
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-family:;
+  color:#f3f1ec;
+  font-weight:700;
+  font-size:18px;
+}
