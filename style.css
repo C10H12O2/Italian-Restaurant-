@@ -29,15 +29,52 @@ body {
     color: #b9b9b9;
     font-size: 13px;
     margin-bottom: 18px;
-    opacity: .9;
+    opacity:0.9;
 }
 
 .logo{
   display:flex;
   align-items:center;
   gap:12px;
-  font-family:;
+  font-family: "Playfair Display",serif;
   color:#f3f1ec;
   font-weight:700;
   font-size:18px;
+}
+
+.main{
+  display:grid;
+  grid-template-columns:1fr 460px;
+  gap:28px;
+}
+
+.hero{
+  padding:28px 20px;
+  position:relative;
+}
+
+.hero h1{
+  font-family:"Playfair Display",serif;
+  font-size:38px;
+  margin:0 0 12px 0;
+  color:#f7f3ee;
+}
+
+.hero p.lead{
+  color:#cfcfcf;
+  max-width:520px;
+  margin:0 0 18px 0;
+  line-height:1.6;
+  font-size:15px;
+}
+
+.cta{
+  display:inline-block;
+  background:#e2842b;
+  color:#0b0b0b;
+  padding:10px 16px;
+  border-radius:8px;
+  font-weight:700;
+  border:none;
+  cursor:pointer;
 }
