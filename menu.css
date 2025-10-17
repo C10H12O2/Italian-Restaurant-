@@ -6,6 +6,7 @@ body{
   background-image: url(https://i.pinimg.com/736x/c0/dd/5c/c0dd5c9c46dacba3811a500b63e046d0.jpg) ;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 36px;
   display: flex;
   background-attachment: fixed;
@@ -24,18 +25,25 @@ body{
     width:260px;
     height:auto;
     margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
 }
 
 .menu-header h1{
+  font-family: "Playfair Display", serif;
   color: #f7f3ee;
   font-size: 32px;
+  margin: 0;
   font-weight: 700;
 }
 
 .menu-container{
     max-width: 1000px;
-    margin: 0 auto;
     padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.03);
+    border-radius: 22px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.02);
+
 }
 
 .menu-card {
@@ -75,3 +83,10 @@ body{
   text-align: center;
   margin: 40px 0 20px;
 }
+
+#menuGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
