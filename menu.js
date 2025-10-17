@@ -32,3 +32,11 @@ function createMenuCard(item){
 
     return card;
 }
+
+function renderMenu() {
+  products.forEach(item => {
+    menuGrid.appendChild(createMenuCard(item));
+  });
+}
+
+renderMenu();
