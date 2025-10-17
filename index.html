@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infundado</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
+
 <body>
-    <div class="cart-ind" id="cartIndicator"> 
+    <div class="cart-ind" id="cartIndicator">
         <strong id="cartCount">0</strong> Items in Cart
     </div>
-    
+
     <main class="device">
         <div class="topbar">
             <div class="logo">
-                <h1>Infundado</h1>  
+                <img src="Images/infundado I.png" alt="Infundado Logo">
             </div>
             <div class="muted">Call us on: +1 234 567 8901</div>
         </div>
         <div class="main">
             <section class="hero">
+                <div class= "hero-text">
                 <h1 id="heroTitle">Traditional<br>Italian Restaurant</h1>
                 <p class="lead">
-                    **Insert intro text**
+                    Authentic, handcrafted Italian dishes made with love and passion.
                 </p>
                 <button class="cta" id="orderNow"> Make an order today</button>
-                <div class="products">
+            </div>
+                 <aside class="hero-visual" aria-hidden="true">
+                <img src="Images/hero-food.jpeg" alt="Braciole" id="heroImg">
+            </aside>
+            </section>
+
+            <section class="products">
                     <h3 class="section-title" id="cusFavTitle"> CUSTOMER FAVOURITES</h3>
                     <div class="grid" id="productGrid"></div>
-                    <div class="viewAll"></div>
-                    <button id="viewAllButton">VIEW ALL</button>
-                </div>
-            </section>
+                    <div class="viewAll">
+                        <a href="menu.html">
+                        <button id="viewAllButton">VIEW ALL</button>
+                        </a>
+                    </div>
+                </section>
         </div>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>
